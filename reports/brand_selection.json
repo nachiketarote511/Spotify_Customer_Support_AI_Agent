@@ -1,0 +1,1012 @@
+[
+  {
+    "brand": "gwrhelp",
+    "n_outbound": 19364,
+    "n_inbound": 21986,
+    "conversation_completeness": 0.7581,
+    "parent_link_ratio": 0.8209,
+    "text_diversity": 0.952,
+    "inbound_outbound_ratio": 1.1354,
+    "composite_score": 0.8756
+  },
+  {
+    "brand": "virgintrains",
+    "n_outbound": 27817,
+    "n_inbound": 29004,
+    "conversation_completeness": 0.7696,
+    "parent_link_ratio": 0.8342,
+    "text_diversity": 0.96,
+    "inbound_outbound_ratio": 1.0427,
+    "composite_score": 0.8721
+  },
+  {
+    "brand": "o2",
+    "n_outbound": 16212,
+    "n_inbound": 14580,
+    "conversation_completeness": 0.8332,
+    "parent_link_ratio": 0.818,
+    "text_diversity": 0.947,
+    "inbound_outbound_ratio": 0.8993,
+    "composite_score": 0.8694
+  },
+  {
+    "brand": "askplaystation",
+    "n_outbound": 19098,
+    "n_inbound": 20691,
+    "conversation_completeness": 0.8395,
+    "parent_link_ratio": 0.7397,
+    "text_diversity": 0.8815,
+    "inbound_outbound_ratio": 1.0834,
+    "composite_score": 0.8685
+  },
+  {
+    "brand": "sainsburys",
+    "n_outbound": 19466,
+    "n_inbound": 16251,
+    "conversation_completeness": 0.8373,
+    "parent_link_ratio": 0.8306,
+    "text_diversity": 0.95,
+    "inbound_outbound_ratio": 0.8348,
+    "composite_score": 0.8659
+  },
+  {
+    "brand": "sw_help",
+    "n_outbound": 12231,
+    "n_inbound": 13291,
+    "conversation_completeness": 0.7381,
+    "parent_link_ratio": 0.8093,
+    "text_diversity": 0.9425,
+    "inbound_outbound_ratio": 1.0867,
+    "composite_score": 0.8626
+  },
+  {
+    "brand": "airasiasupport",
+    "n_outbound": 12829,
+    "n_inbound": 11794,
+    "conversation_completeness": 0.8201,
+    "parent_link_ratio": 0.7833,
+    "text_diversity": 0.9035,
+    "inbound_outbound_ratio": 0.9193,
+    "composite_score": 0.856
+  },
+  {
+    "brand": "spotifycares",
+    "n_outbound": 43265,
+    "n_inbound": 27339,
+    "conversation_completeness": 0.8865,
+    "parent_link_ratio": 0.8498,
+    "text_diversity": 0.9305,
+    "inbound_outbound_ratio": 0.6319,
+    "composite_score": 0.8559
+  },
+  {
+    "brand": "americanair",
+    "n_outbound": 36764,
+    "n_inbound": 33021,
+    "conversation_completeness": 0.7536,
+    "parent_link_ratio": 0.8258,
+    "text_diversity": 0.9695,
+    "inbound_outbound_ratio": 0.8982,
+    "composite_score": 0.8547
+  },
+  {
+    "brand": "safaricom_care",
+    "n_outbound": 16077,
+    "n_inbound": 15310,
+    "conversation_completeness": 0.8167,
+    "parent_link_ratio": 0.7587,
+    "text_diversity": 0.893,
+    "inbound_outbound_ratio": 0.9523,
+    "composite_score": 0.8539
+  },
+  {
+    "brand": "xboxsupport",
+    "n_outbound": 24557,
+    "n_inbound": 22810,
+    "conversation_completeness": 0.7799,
+    "parent_link_ratio": 0.8026,
+    "text_diversity": 0.9245,
+    "inbound_outbound_ratio": 0.9289,
+    "composite_score": 0.853
+  },
+  {
+    "brand": "verizonsupport",
+    "n_outbound": 17966,
+    "n_inbound": 16235,
+    "conversation_completeness": 0.7253,
+    "parent_link_ratio": 0.926,
+    "text_diversity": 0.923,
+    "inbound_outbound_ratio": 0.9037,
+    "composite_score": 0.8489
+  },
+  {
+    "brand": "delta",
+    "n_outbound": 42253,
+    "n_inbound": 30014,
+    "conversation_completeness": 0.8302,
+    "parent_link_ratio": 0.8157,
+    "text_diversity": 0.936,
+    "inbound_outbound_ratio": 0.7103,
+    "composite_score": 0.8474
+  },
+  {
+    "brand": "hulu_support",
+    "n_outbound": 21872,
+    "n_inbound": 16491,
+    "conversation_completeness": 0.8263,
+    "parent_link_ratio": 0.8271,
+    "text_diversity": 0.902,
+    "inbound_outbound_ratio": 0.754,
+    "composite_score": 0.8451
+  },
+  {
+    "brand": "british_airways",
+    "n_outbound": 29361,
+    "n_inbound": 23702,
+    "conversation_completeness": 0.7774,
+    "parent_link_ratio": 0.8045,
+    "text_diversity": 0.9455,
+    "inbound_outbound_ratio": 0.8073,
+    "composite_score": 0.8446
+  },
+  {
+    "brand": "tesco",
+    "n_outbound": 38573,
+    "n_inbound": 24838,
+    "conversation_completeness": 0.8254,
+    "parent_link_ratio": 0.8344,
+    "text_diversity": 0.95,
+    "inbound_outbound_ratio": 0.6439,
+    "composite_score": 0.8442
+  },
+  {
+    "brand": "microsofthelps",
+    "n_outbound": 11304,
+    "n_inbound": 9499,
+    "conversation_completeness": 0.7651,
+    "parent_link_ratio": 0.8811,
+    "text_diversity": 0.9325,
+    "inbound_outbound_ratio": 0.8403,
+    "composite_score": 0.8424
+  },
+  {
+    "brand": "amazonhelp",
+    "n_outbound": 169840,
+    "n_inbound": 123694,
+    "conversation_completeness": 0.7279,
+    "parent_link_ratio": 0.9475,
+    "text_diversity": 0.9615,
+    "inbound_outbound_ratio": 0.7283,
+    "composite_score": 0.8418
+  },
+  {
+    "brand": "applesupport",
+    "n_outbound": 106860,
+    "n_inbound": 71780,
+    "conversation_completeness": 0.8271,
+    "parent_link_ratio": 0.8261,
+    "text_diversity": 0.9185,
+    "inbound_outbound_ratio": 0.6717,
+    "composite_score": 0.8403
+  },
+  {
+    "brand": "southwestair",
+    "n_outbound": 28977,
+    "n_inbound": 21621,
+    "conversation_completeness": 0.7847,
+    "parent_link_ratio": 0.8178,
+    "text_diversity": 0.9365,
+    "inbound_outbound_ratio": 0.7461,
+    "composite_score": 0.8399
+  },
+  {
+    "brand": "idea_cares",
+    "n_outbound": 15724,
+    "n_inbound": 13581,
+    "conversation_completeness": 0.7123,
+    "parent_link_ratio": 0.8732,
+    "text_diversity": 0.94,
+    "inbound_outbound_ratio": 0.8637,
+    "composite_score": 0.8398
+  },
+  {
+    "brand": "atviassist",
+    "n_outbound": 17650,
+    "n_inbound": 18901,
+    "conversation_completeness": 0.6043,
+    "parent_link_ratio": 0.8558,
+    "text_diversity": 0.958,
+    "inbound_outbound_ratio": 1.0709,
+    "composite_score": 0.8353
+  },
+  {
+    "brand": "chipotletweets",
+    "n_outbound": 18749,
+    "n_inbound": 13150,
+    "conversation_completeness": 0.7644,
+    "parent_link_ratio": 0.8282,
+    "text_diversity": 0.954,
+    "inbound_outbound_ratio": 0.7014,
+    "composite_score": 0.8349
+  },
+  {
+    "brand": "ask_spectrum",
+    "n_outbound": 25860,
+    "n_inbound": 18508,
+    "conversation_completeness": 0.8067,
+    "parent_link_ratio": 0.8182,
+    "text_diversity": 0.8975,
+    "inbound_outbound_ratio": 0.7157,
+    "composite_score": 0.8346
+  },
+  {
+    "brand": "argoshelpers",
+    "n_outbound": 12174,
+    "n_inbound": 10136,
+    "conversation_completeness": 0.7107,
+    "parent_link_ratio": 0.8611,
+    "text_diversity": 0.9255,
+    "inbound_outbound_ratio": 0.8326,
+    "composite_score": 0.8322
+  },
+  {
+    "brand": "marksandspencer",
+    "n_outbound": 11504,
+    "n_inbound": 9095,
+    "conversation_completeness": 0.7943,
+    "parent_link_ratio": 0.7908,
+    "text_diversity": 0.9285,
+    "inbound_outbound_ratio": 0.7906,
+    "composite_score": 0.8288
+  },
+  {
+    "brand": "comcastcares",
+    "n_outbound": 33031,
+    "n_inbound": 18705,
+    "conversation_completeness": 0.8102,
+    "parent_link_ratio": 0.8316,
+    "text_diversity": 0.919,
+    "inbound_outbound_ratio": 0.5663,
+    "composite_score": 0.8261
+  },
+  {
+    "brand": "uber_support",
+    "n_outbound": 56270,
+    "n_inbound": 39612,
+    "conversation_completeness": 0.741,
+    "parent_link_ratio": 0.8439,
+    "text_diversity": 0.911,
+    "inbound_outbound_ratio": 0.704,
+    "composite_score": 0.8222
+  },
+  {
+    "brand": "askamex",
+    "n_outbound": 11358,
+    "n_inbound": 8366,
+    "conversation_completeness": 0.8624,
+    "parent_link_ratio": 0.8232,
+    "text_diversity": 0.863,
+    "inbound_outbound_ratio": 0.7366,
+    "composite_score": 0.8197
+  },
+  {
+    "brand": "morrisons",
+    "n_outbound": 10126,
+    "n_inbound": 7770,
+    "conversation_completeness": 0.8242,
+    "parent_link_ratio": 0.7968,
+    "text_diversity": 0.9435,
+    "inbound_outbound_ratio": 0.7673,
+    "composite_score": 0.8177
+  },
+  {
+    "brand": "askebay",
+    "n_outbound": 9686,
+    "n_inbound": 7518,
+    "conversation_completeness": 0.8062,
+    "parent_link_ratio": 0.8474,
+    "text_diversity": 0.946,
+    "inbound_outbound_ratio": 0.7762,
+    "composite_score": 0.8112
+  },
+  {
+    "brand": "tmobilehelp",
+    "n_outbound": 34317,
+    "n_inbound": 17728,
+    "conversation_completeness": 0.7383,
+    "parent_link_ratio": 0.8994,
+    "text_diversity": 0.908,
+    "inbound_outbound_ratio": 0.5166,
+    "composite_score": 0.8078
+  },
+  {
+    "brand": "askpaypal",
+    "n_outbound": 11298,
+    "n_inbound": 7921,
+    "conversation_completeness": 0.7906,
+    "parent_link_ratio": 0.7736,
+    "text_diversity": 0.905,
+    "inbound_outbound_ratio": 0.7011,
+    "composite_score": 0.7949
+  },
+  {
+    "brand": "sprintcare",
+    "n_outbound": 22381,
+    "n_inbound": 11312,
+    "conversation_completeness": 0.644,
+    "parent_link_ratio": 0.9423,
+    "text_diversity": 0.9385,
+    "inbound_outbound_ratio": 0.5054,
+    "composite_score": 0.7935
+  },
+  {
+    "brand": "airtel_care",
+    "n_outbound": 9881,
+    "n_inbound": 5523,
+    "conversation_completeness": 0.9611,
+    "parent_link_ratio": 0.8501,
+    "text_diversity": 0.905,
+    "inbound_outbound_ratio": 0.559,
+    "composite_score": 0.7932
+  },
+  {
+    "brand": "londonmidland",
+    "n_outbound": 6822,
+    "n_inbound": 7860,
+    "conversation_completeness": 0.7532,
+    "parent_link_ratio": 0.8006,
+    "text_diversity": 0.936,
+    "inbound_outbound_ratio": 1.1522,
+    "composite_score": 0.791
+  },
+  {
+    "brand": "upshelp",
+    "n_outbound": 17817,
+    "n_inbound": 10710,
+    "conversation_completeness": 0.6138,
+    "parent_link_ratio": 0.8462,
+    "text_diversity": 0.9135,
+    "inbound_outbound_ratio": 0.6011,
+    "composite_score": 0.7809
+  },
+  {
+    "brand": "glocare",
+    "n_outbound": 6308,
+    "n_inbound": 6862,
+    "conversation_completeness": 0.8161,
+    "parent_link_ratio": 0.8107,
+    "text_diversity": 0.92,
+    "inbound_outbound_ratio": 1.0878,
+    "composite_score": 0.7754
+  },
+  {
+    "brand": "adobecare",
+    "n_outbound": 9917,
+    "n_inbound": 6326,
+    "conversation_completeness": 0.7423,
+    "parent_link_ratio": 0.9111,
+    "text_diversity": 0.9355,
+    "inbound_outbound_ratio": 0.6379,
+    "composite_score": 0.7712
+  },
+  {
+    "brand": "jetblue",
+    "n_outbound": 8020,
+    "n_inbound": 7088,
+    "conversation_completeness": 0.7319,
+    "parent_link_ratio": 0.8127,
+    "text_diversity": 0.9465,
+    "inbound_outbound_ratio": 0.8838,
+    "composite_score": 0.7686
+  },
+  {
+    "brand": "azuresupport",
+    "n_outbound": 7565,
+    "n_inbound": 6021,
+    "conversation_completeness": 0.891,
+    "parent_link_ratio": 0.8122,
+    "text_diversity": 0.873,
+    "inbound_outbound_ratio": 0.7959,
+    "composite_score": 0.762
+  },
+  {
+    "brand": "aldiuk",
+    "n_outbound": 8114,
+    "n_inbound": 6544,
+    "conversation_completeness": 0.7509,
+    "parent_link_ratio": 0.7394,
+    "text_diversity": 0.9295,
+    "inbound_outbound_ratio": 0.8065,
+    "composite_score": 0.7481
+  },
+  {
+    "brand": "coxhelp",
+    "n_outbound": 7861,
+    "n_inbound": 5980,
+    "conversation_completeness": 0.7781,
+    "parent_link_ratio": 0.8427,
+    "text_diversity": 0.915,
+    "inbound_outbound_ratio": 0.7607,
+    "composite_score": 0.7455
+  },
+  {
+    "brand": "airbnbhelp",
+    "n_outbound": 8875,
+    "n_inbound": 5479,
+    "conversation_completeness": 0.7573,
+    "parent_link_ratio": 0.8726,
+    "text_diversity": 0.927,
+    "inbound_outbound_ratio": 0.6174,
+    "composite_score": 0.739
+  },
+  {
+    "brand": "alaskaair",
+    "n_outbound": 7478,
+    "n_inbound": 5489,
+    "conversation_completeness": 0.7748,
+    "parent_link_ratio": 0.8294,
+    "text_diversity": 0.9465,
+    "inbound_outbound_ratio": 0.734,
+    "composite_score": 0.7339
+  },
+  {
+    "brand": "bofa_help",
+    "n_outbound": 12683,
+    "n_inbound": 5400,
+    "conversation_completeness": 0.7307,
+    "parent_link_ratio": 0.9216,
+    "text_diversity": 0.9145,
+    "inbound_outbound_ratio": 0.4258,
+    "composite_score": 0.7313
+  },
+  {
+    "brand": "asklyft",
+    "n_outbound": 11809,
+    "n_inbound": 5503,
+    "conversation_completeness": 0.6685,
+    "parent_link_ratio": 0.8698,
+    "text_diversity": 0.901,
+    "inbound_outbound_ratio": 0.466,
+    "composite_score": 0.7135
+  },
+  {
+    "brand": "chasesupport",
+    "n_outbound": 8811,
+    "n_inbound": 3706,
+    "conversation_completeness": 0.8535,
+    "parent_link_ratio": 0.8684,
+    "text_diversity": 0.907,
+    "inbound_outbound_ratio": 0.4206,
+    "composite_score": 0.7114
+  },
+  {
+    "brand": "asktarget",
+    "n_outbound": 13218,
+    "n_inbound": 6449,
+    "conversation_completeness": 0.5429,
+    "parent_link_ratio": 0.9193,
+    "text_diversity": 0.9315,
+    "inbound_outbound_ratio": 0.4879,
+    "composite_score": 0.7095
+  },
+  {
+    "brand": "nationalrailenq",
+    "n_outbound": 4444,
+    "n_inbound": 4584,
+    "conversation_completeness": 0.8058,
+    "parent_link_ratio": 0.7907,
+    "text_diversity": 0.905,
+    "inbound_outbound_ratio": 1.0315,
+    "composite_score": 0.7001
+  },
+  {
+    "brand": "hpsupport",
+    "n_outbound": 7200,
+    "n_inbound": 4628,
+    "conversation_completeness": 0.9054,
+    "parent_link_ratio": 0.7174,
+    "text_diversity": 0.792,
+    "inbound_outbound_ratio": 0.6428,
+    "composite_score": 0.6982
+  },
+  {
+    "brand": "virginatlantic",
+    "n_outbound": 4318,
+    "n_inbound": 4741,
+    "conversation_completeness": 0.7197,
+    "parent_link_ratio": 0.7961,
+    "text_diversity": 0.942,
+    "inbound_outbound_ratio": 1.098,
+    "composite_score": 0.6936
+  },
+  {
+    "brand": "nikesupport",
+    "n_outbound": 3468,
+    "n_inbound": 3666,
+    "conversation_completeness": 0.8022,
+    "parent_link_ratio": 0.8549,
+    "text_diversity": 0.9425,
+    "inbound_outbound_ratio": 1.0571,
+    "composite_score": 0.6873
+  },
+  {
+    "brand": "dropboxsupport",
+    "n_outbound": 5954,
+    "n_inbound": 3491,
+    "conversation_completeness": 0.8619,
+    "parent_link_ratio": 0.8329,
+    "text_diversity": 0.9165,
+    "inbound_outbound_ratio": 0.5863,
+    "composite_score": 0.6824
+  },
+  {
+    "brand": "greggsofficial",
+    "n_outbound": 4522,
+    "n_inbound": 3873,
+    "conversation_completeness": 0.7134,
+    "parent_link_ratio": 0.8135,
+    "text_diversity": 0.9465,
+    "inbound_outbound_ratio": 0.8565,
+    "composite_score": 0.6606
+  },
+  {
+    "brand": "ask_wellsfargo",
+    "n_outbound": 7578,
+    "n_inbound": 2269,
+    "conversation_completeness": 0.7149,
+    "parent_link_ratio": 0.9644,
+    "text_diversity": 0.9385,
+    "inbound_outbound_ratio": 0.2994,
+    "composite_score": 0.6405
+  },
+  {
+    "brand": "virginamerica",
+    "n_outbound": 2815,
+    "n_inbound": 2343,
+    "conversation_completeness": 0.781,
+    "parent_link_ratio": 0.8083,
+    "text_diversity": 0.959,
+    "inbound_outbound_ratio": 0.8323,
+    "composite_score": 0.6285
+  },
+  {
+    "brand": "dellcares",
+    "n_outbound": 5336,
+    "n_inbound": 2548,
+    "conversation_completeness": 0.6962,
+    "parent_link_ratio": 0.8943,
+    "text_diversity": 0.934,
+    "inbound_outbound_ratio": 0.4775,
+    "composite_score": 0.6163
+  },
+  {
+    "brand": "att",
+    "n_outbound": 2790,
+    "n_inbound": 2232,
+    "conversation_completeness": 0.7621,
+    "parent_link_ratio": 0.8146,
+    "text_diversity": 0.932,
+    "inbound_outbound_ratio": 0.8,
+    "composite_score": 0.6137
+  },
+  {
+    "brand": "tfl",
+    "n_outbound": 2243,
+    "n_inbound": 2061,
+    "conversation_completeness": 0.7914,
+    "parent_link_ratio": 0.7393,
+    "text_diversity": 0.909,
+    "inbound_outbound_ratio": 0.9189,
+    "composite_score": 0.61
+  },
+  {
+    "brand": "askvirginmoney",
+    "n_outbound": 914,
+    "n_inbound": 751,
+    "conversation_completeness": 0.9015,
+    "parent_link_ratio": 0.9003,
+    "text_diversity": 0.9294,
+    "inbound_outbound_ratio": 0.8217,
+    "composite_score": 0.6084
+  },
+  {
+    "brand": "nortonsupport",
+    "n_outbound": 2011,
+    "n_inbound": 1234,
+    "conversation_completeness": 0.8314,
+    "parent_link_ratio": 0.955,
+    "text_diversity": 0.9635,
+    "inbound_outbound_ratio": 0.6136,
+    "composite_score": 0.6061
+  },
+  {
+    "brand": "tacobellteam",
+    "n_outbound": 4082,
+    "n_inbound": 2037,
+    "conversation_completeness": 0.7104,
+    "parent_link_ratio": 0.9255,
+    "text_diversity": 0.9275,
+    "inbound_outbound_ratio": 0.499,
+    "composite_score": 0.5973
+  },
+  {
+    "brand": "mcdonalds",
+    "n_outbound": 8478,
+    "n_inbound": 2830,
+    "conversation_completeness": 0.4385,
+    "parent_link_ratio": 0.9454,
+    "text_diversity": 0.9465,
+    "inbound_outbound_ratio": 0.3338,
+    "composite_score": 0.5965
+  },
+  {
+    "brand": "sizehelpteam",
+    "n_outbound": 1482,
+    "n_inbound": 1862,
+    "conversation_completeness": 0.7524,
+    "parent_link_ratio": 0.6519,
+    "text_diversity": 0.8287,
+    "inbound_outbound_ratio": 1.2564,
+    "composite_score": 0.5948
+  },
+  {
+    "brand": "asurioncares",
+    "n_outbound": 1898,
+    "n_inbound": 1577,
+    "conversation_completeness": 0.7546,
+    "parent_link_ratio": 0.8639,
+    "text_diversity": 0.922,
+    "inbound_outbound_ratio": 0.8309,
+    "composite_score": 0.5947
+  },
+  {
+    "brand": "uscellularcares",
+    "n_outbound": 1177,
+    "n_inbound": 919,
+    "conversation_completeness": 0.803,
+    "parent_link_ratio": 0.938,
+    "text_diversity": 0.9358,
+    "inbound_outbound_ratio": 0.7808,
+    "composite_score": 0.5912
+  },
+  {
+    "brand": "askseagate",
+    "n_outbound": 639,
+    "n_inbound": 633,
+    "conversation_completeness": 0.793,
+    "parent_link_ratio": 0.7673,
+    "text_diversity": 0.9431,
+    "inbound_outbound_ratio": 0.9906,
+    "composite_score": 0.5818
+  },
+  {
+    "brand": "askciti",
+    "n_outbound": 4081,
+    "n_inbound": 1705,
+    "conversation_completeness": 0.7103,
+    "parent_link_ratio": 0.9001,
+    "text_diversity": 0.9138,
+    "inbound_outbound_ratio": 0.4178,
+    "composite_score": 0.5789
+  },
+  {
+    "brand": "googleplaymusic",
+    "n_outbound": 804,
+    "n_inbound": 786,
+    "conversation_completeness": 0.7074,
+    "parent_link_ratio": 0.844,
+    "text_diversity": 0.9669,
+    "inbound_outbound_ratio": 0.9776,
+    "composite_score": 0.5762
+  },
+  {
+    "brand": "yahoocare",
+    "n_outbound": 906,
+    "n_inbound": 927,
+    "conversation_completeness": 0.6742,
+    "parent_link_ratio": 0.8227,
+    "text_diversity": 0.9493,
+    "inbound_outbound_ratio": 1.0232,
+    "composite_score": 0.5705
+  },
+  {
+    "brand": "scsupport",
+    "n_outbound": 1329,
+    "n_inbound": 1417,
+    "conversation_completeness": 0.6648,
+    "parent_link_ratio": 0.6959,
+    "text_diversity": 0.9139,
+    "inbound_outbound_ratio": 1.0662,
+    "composite_score": 0.5664
+  },
+  {
+    "brand": "godaddyhelp",
+    "n_outbound": 1965,
+    "n_inbound": 1275,
+    "conversation_completeness": 0.6949,
+    "parent_link_ratio": 0.8738,
+    "text_diversity": 0.9561,
+    "inbound_outbound_ratio": 0.6489,
+    "composite_score": 0.5658
+  },
+  {
+    "brand": "postmates_help",
+    "n_outbound": 3346,
+    "n_inbound": 2107,
+    "conversation_completeness": 0.6526,
+    "parent_link_ratio": 0.8186,
+    "text_diversity": 0.8755,
+    "inbound_outbound_ratio": 0.6297,
+    "composite_score": 0.5649
+  },
+  {
+    "brand": "dunkindonuts",
+    "n_outbound": 1290,
+    "n_inbound": 858,
+    "conversation_completeness": 0.7704,
+    "parent_link_ratio": 0.7197,
+    "text_diversity": 0.958,
+    "inbound_outbound_ratio": 0.6651,
+    "composite_score": 0.5549
+  },
+  {
+    "brand": "kimpton",
+    "n_outbound": 1339,
+    "n_inbound": 734,
+    "conversation_completeness": 0.7629,
+    "parent_link_ratio": 0.8509,
+    "text_diversity": 0.9591,
+    "inbound_outbound_ratio": 0.5482,
+    "composite_score": 0.5536
+  },
+  {
+    "brand": "vmucare",
+    "n_outbound": 1381,
+    "n_inbound": 903,
+    "conversation_completeness": 0.6866,
+    "parent_link_ratio": 0.9028,
+    "text_diversity": 0.9524,
+    "inbound_outbound_ratio": 0.6539,
+    "composite_score": 0.5521
+  },
+  {
+    "brand": "askpapajohns",
+    "n_outbound": 3908,
+    "n_inbound": 1732,
+    "conversation_completeness": 0.5629,
+    "parent_link_ratio": 0.9452,
+    "text_diversity": 0.9261,
+    "inbound_outbound_ratio": 0.4432,
+    "composite_score": 0.5494
+  },
+  {
+    "brand": "asktigogh",
+    "n_outbound": 715,
+    "n_inbound": 426,
+    "conversation_completeness": 0.7441,
+    "parent_link_ratio": 0.9632,
+    "text_diversity": 0.9437,
+    "inbound_outbound_ratio": 0.5958,
+    "composite_score": 0.5478
+  },
+  {
+    "brand": "twittersupport",
+    "n_outbound": 1290,
+    "n_inbound": 829,
+    "conversation_completeness": 0.8758,
+    "parent_link_ratio": 0.7353,
+    "text_diversity": 0.7805,
+    "inbound_outbound_ratio": 0.6426,
+    "composite_score": 0.5446
+  },
+  {
+    "brand": "asksalesforce",
+    "n_outbound": 710,
+    "n_inbound": 421,
+    "conversation_completeness": 0.7268,
+    "parent_link_ratio": 0.9116,
+    "text_diversity": 0.9762,
+    "inbound_outbound_ratio": 0.593,
+    "composite_score": 0.5444
+  },
+  {
+    "brand": "keybank_help",
+    "n_outbound": 555,
+    "n_inbound": 370,
+    "conversation_completeness": 0.6973,
+    "parent_link_ratio": 0.8908,
+    "text_diversity": 0.9892,
+    "inbound_outbound_ratio": 0.6667,
+    "composite_score": 0.5418
+  },
+  {
+    "brand": "centurylinkhelp",
+    "n_outbound": 3801,
+    "n_inbound": 1668,
+    "conversation_completeness": 0.545,
+    "parent_link_ratio": 0.9334,
+    "text_diversity": 0.9263,
+    "inbound_outbound_ratio": 0.4388,
+    "composite_score": 0.5408
+  },
+  {
+    "brand": "kfc_uki_help",
+    "n_outbound": 2103,
+    "n_inbound": 1437,
+    "conversation_completeness": 0.6082,
+    "parent_link_ratio": 0.8003,
+    "text_diversity": 0.9346,
+    "inbound_outbound_ratio": 0.6833,
+    "composite_score": 0.5404
+  },
+  {
+    "brand": "moo",
+    "n_outbound": 630,
+    "n_inbound": 348,
+    "conversation_completeness": 0.7443,
+    "parent_link_ratio": 0.8671,
+    "text_diversity": 0.9799,
+    "inbound_outbound_ratio": 0.5524,
+    "composite_score": 0.5387
+  },
+  {
+    "brand": "boostcare",
+    "n_outbound": 907,
+    "n_inbound": 547,
+    "conversation_completeness": 0.702,
+    "parent_link_ratio": 0.8741,
+    "text_diversity": 0.9653,
+    "inbound_outbound_ratio": 0.6031,
+    "composite_score": 0.5381
+  },
+  {
+    "brand": "oppocarein",
+    "n_outbound": 879,
+    "n_inbound": 554,
+    "conversation_completeness": 0.6823,
+    "parent_link_ratio": 0.9386,
+    "text_diversity": 0.9404,
+    "inbound_outbound_ratio": 0.6303,
+    "composite_score": 0.537
+  },
+  {
+    "brand": "pearsonsupport",
+    "n_outbound": 841,
+    "n_inbound": 422,
+    "conversation_completeness": 0.7251,
+    "parent_link_ratio": 0.9129,
+    "text_diversity": 0.9739,
+    "inbound_outbound_ratio": 0.5018,
+    "composite_score": 0.5365
+  },
+  {
+    "brand": "ihgservice",
+    "n_outbound": 2643,
+    "n_inbound": 1035,
+    "conversation_completeness": 0.5778,
+    "parent_link_ratio": 0.9489,
+    "text_diversity": 0.9546,
+    "inbound_outbound_ratio": 0.3916,
+    "composite_score": 0.5246
+  },
+  {
+    "brand": "walmart",
+    "n_outbound": 2643,
+    "n_inbound": 686,
+    "conversation_completeness": 0.6399,
+    "parent_link_ratio": 0.9258,
+    "text_diversity": 0.9665,
+    "inbound_outbound_ratio": 0.2596,
+    "composite_score": 0.5218
+  },
+  {
+    "brand": "arbyscares",
+    "n_outbound": 1904,
+    "n_inbound": 716,
+    "conversation_completeness": 0.6257,
+    "parent_link_ratio": 0.9374,
+    "text_diversity": 0.9525,
+    "inbound_outbound_ratio": 0.3761,
+    "composite_score": 0.5176
+  },
+  {
+    "brand": "mtnc_care",
+    "n_outbound": 784,
+    "n_inbound": 511,
+    "conversation_completeness": 0.5969,
+    "parent_link_ratio": 0.9143,
+    "text_diversity": 0.9452,
+    "inbound_outbound_ratio": 0.6518,
+    "composite_score": 0.5143
+  },
+  {
+    "brand": "askrbc",
+    "n_outbound": 1011,
+    "n_inbound": 638,
+    "conversation_completeness": 0.5862,
+    "parent_link_ratio": 0.8848,
+    "text_diversity": 0.9483,
+    "inbound_outbound_ratio": 0.6311,
+    "composite_score": 0.5125
+  },
+  {
+    "brand": "pandorasupport",
+    "n_outbound": 1043,
+    "n_inbound": 502,
+    "conversation_completeness": 0.6096,
+    "parent_link_ratio": 0.9126,
+    "text_diversity": 0.9363,
+    "inbound_outbound_ratio": 0.4813,
+    "composite_score": 0.5022
+  },
+  {
+    "brand": "doordash_help",
+    "n_outbound": 1581,
+    "n_inbound": 869,
+    "conversation_completeness": 0.5581,
+    "parent_link_ratio": 0.8453,
+    "text_diversity": 0.9264,
+    "inbound_outbound_ratio": 0.5497,
+    "composite_score": 0.501
+  },
+  {
+    "brand": "hiltonhelp",
+    "n_outbound": 833,
+    "n_inbound": 340,
+    "conversation_completeness": 0.6147,
+    "parent_link_ratio": 0.9165,
+    "text_diversity": 0.9824,
+    "inbound_outbound_ratio": 0.4082,
+    "composite_score": 0.5002
+  },
+  {
+    "brand": "askvisa",
+    "n_outbound": 709,
+    "n_inbound": 244,
+    "conversation_completeness": 0.6434,
+    "parent_link_ratio": 0.9224,
+    "text_diversity": 0.9672,
+    "inbound_outbound_ratio": 0.3441,
+    "composite_score": 0.4953
+  },
+  {
+    "brand": "awssupport",
+    "n_outbound": 1035,
+    "n_inbound": 587,
+    "conversation_completeness": 0.5332,
+    "parent_link_ratio": 0.8903,
+    "text_diversity": 0.9438,
+    "inbound_outbound_ratio": 0.5671,
+    "composite_score": 0.4921
+  },
+  {
+    "brand": "neweggservice",
+    "n_outbound": 1079,
+    "n_inbound": 527,
+    "conversation_completeness": 0.5237,
+    "parent_link_ratio": 0.9153,
+    "text_diversity": 0.9469,
+    "inbound_outbound_ratio": 0.4884,
+    "composite_score": 0.4848
+  },
+  {
+    "brand": "askpanera",
+    "n_outbound": 2153,
+    "n_inbound": 716,
+    "conversation_completeness": 0.4148,
+    "parent_link_ratio": 0.9627,
+    "text_diversity": 0.9288,
+    "inbound_outbound_ratio": 0.3326,
+    "composite_score": 0.462
+  },
+  {
+    "brand": "ask_progressive",
+    "n_outbound": 612,
+    "n_inbound": 181,
+    "conversation_completeness": 0.3702,
+    "parent_link_ratio": 0.9786,
+    "text_diversity": 0.9834,
+    "inbound_outbound_ratio": 0.2958,
+    "composite_score": 0.4286
+  }
+]

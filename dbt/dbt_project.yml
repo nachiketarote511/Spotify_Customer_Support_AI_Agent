@@ -1,0 +1,20 @@
+name: 'hiver_support_agent'
+version: '1.0.0'
+config-version: 2
+profile: 'hiver_support_agent'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# NOTE: This is an architectural placeholder.
+# In production, this would connect to a Databricks/Spark cluster.
+# The dbt models define the SQL transformations that would run
+# on the data warehouse, ensuring the data contract is met.

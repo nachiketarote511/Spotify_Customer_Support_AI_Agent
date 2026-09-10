@@ -1,0 +1,56 @@
+intents:
+  account_access:
+    count: 586
+    definition: Customer messages related to account access
+    examples:
+    - i m using my facebook account as a method to log in.
+    - i deactivated my facebook a few years ago and now i can t log into spotify?
+      i don t want to make a new email. any tips? thanks
+    - already tried with an other computer and for the password dont need it im loggin
+      with my facebook account !
+  app_technical:
+    count: 445
+    definition: Customer messages related to app technical
+    examples:
+    - spotify 8.4.25.906 and ios 11
+    - no just on my phone since i installed ios 11. mostly on 3g 4g. it s very random
+      when it decides not to work.
+    - no problems with ios.
+  billing_payment:
+    count: 912
+    definition: Customer messages related to billing payment
+    examples:
+    - my family premium account has stopped working, even though we have payed this
+      month, it was working last week
+    - my friends invited me on spotify family through email. but every time i fill
+      the address its always said somethings went wrong
+    - hi! when will you fix 4 oops something went wrong, please try again. problem
+      in managing family accounts?
+  information_request:
+    count: 807
+    definition: Customer messages related to information request
+    examples:
+    - i doubt it but thank you for replying!
+    - and this is why i ll love spotify forever and why you are my favorite music
+      platform. thank you!
+    - they re back now. i was on my phone s 4g earlier. i don t know what happened
+      but when i connected to my wifi it returned. thank you though.
+  playback_issues:
+    count: 741
+    definition: Customer messages related to playback issues
+    examples:
+    - i dunno what system you use that decides which part of the song it gonna play
+      i love spotify, but maybe a custom clip option?
+    - thanks 4 the speedy response but i think i discovered what s going on, does
+      the desktop app have a way to play music from personal folders?
+    - i have now tried a different computer on a different network with a different
+      browser edge amp still can t push play.
+  playlist_library:
+    count: 437
+    definition: Customer messages related to playlist library
+    examples:
+    - over all connection, i get this notification from the phone as for loving in
+      and out i did a fresh install, no luck!
+    - okay! i did it! thanks
+    - yes i did. the dude even said thanks for watching now enjoy your 30 mins of
+      ad free music.

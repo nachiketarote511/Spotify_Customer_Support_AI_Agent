@@ -1,0 +1,44 @@
+# Escalation Thresholds Configuration
+
+# Intent confidence thresholds
+intent_confidence:
+  auto_handle: 0.7      # Above this = safe to auto-handle
+  uncertain: 0.4         # Between uncertain and auto_handle = needs extra checks
+  escalate: 0.4          # Below this = escalate
+
+# Retrieval quality thresholds
+retrieval:
+  min_similarity: 0.3    # Minimum similarity score for a result to be considered useful
+  min_results: 2         # Minimum number of useful results needed
+  strong_match: 0.7      # Above this = strong historical evidence
+
+# Escalation signals (weighted)
+signals:
+  low_intent_confidence:
+    weight: 0.25
+    threshold: 0.4
+  low_retrieval_quality:
+    weight: 0.20
+    threshold: 0.3
+  sensitive_content:
+    weight: 0.20
+  ambiguous_intent:
+    weight: 0.15
+    # Triggered when top-2 intent probabilities are close
+    margin_threshold: 0.1
+  conflicting_evidence:
+    weight: 0.10
+  high_emotion:
+    weight: 0.10
+    keywords:
+      - "furious"
+      - "angry"
+      - "worst"
+      - "terrible"
+      - "hate"
+      - "unacceptable"
+      - "disgusting"
+      - "scam"
+
+# Final escalation decision
+escalation_threshold: 0.5  # Weighted score above this = escalate

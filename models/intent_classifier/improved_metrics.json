@@ -1,0 +1,104 @@
+{
+  "model_name": "improved",
+  "accuracy": 0.759585979769466,
+  "macro_precision": 0.5706022328311766,
+  "macro_recall": 0.8043484747535183,
+  "macro_f1": 0.6348355145747935,
+  "weighted_f1": 0.7867796512672657,
+  "per_class": {
+    "account_access": {
+      "precision": 0.46846846846846846,
+      "recall": 0.9043478260869565,
+      "f1": 0.6172106824925816,
+      "support": 115.0
+    },
+    "app_technical": {
+      "precision": 0.6351351351351351,
+      "recall": 0.8867924528301887,
+      "f1": 0.7401574803149606,
+      "support": 318.0
+    },
+    "billing_payment": {
+      "precision": 0.7800546448087432,
+      "recall": 0.8717557251908397,
+      "f1": 0.8233597692862292,
+      "support": 655.0
+    },
+    "information_request": {
+      "precision": 0.4380664652567976,
+      "recall": 0.8630952380952381,
+      "f1": 0.5811623246492986,
+      "support": 168.0
+    },
+    "playback_issues": {
+      "precision": 0.9602220166512488,
+      "recall": 0.7138927097661623,
+      "f1": 0.8189349112426035,
+      "support": 2908.0
+    },
+    "playlist_library": {
+      "precision": 0.14166666666666666,
+      "recall": 0.5862068965517241,
+      "f1": 0.22818791946308725,
+      "support": 87.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      104,
+      0,
+      5,
+      0,
+      4,
+      2
+    ],
+    [
+      4,
+      282,
+      0,
+      1,
+      27,
+      4
+    ],
+    [
+      43,
+      1,
+      571,
+      4,
+      24,
+      12
+    ],
+    [
+      0,
+      1,
+      3,
+      145,
+      13,
+      6
+    ],
+    [
+      67,
+      155,
+      147,
+      178,
+      2076,
+      285
+    ],
+    [
+      4,
+      5,
+      6,
+      3,
+      18,
+      51
+    ]
+  ],
+  "class_names": [
+    "account_access",
+    "app_technical",
+    "billing_payment",
+    "information_request",
+    "playback_issues",
+    "playlist_library"
+  ]
+}

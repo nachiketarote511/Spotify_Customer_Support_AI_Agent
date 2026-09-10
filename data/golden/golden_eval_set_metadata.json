@@ -1,0 +1,19 @@
+{
+  "total_examples": 200,
+  "sampling_method": "stratified",
+  "intent_distribution": {
+    "playback_issues": 126,
+    "billing_payment": 30,
+    "app_technical": 13,
+    "account_access": 11,
+    "information_request": 10,
+    "playlist_library": 10
+  },
+  "difficulty_distribution": {
+    "medium": 156,
+    "easy": 33,
+    "hard": 11
+  },
+  "human_verified_count": 0,
+  "note": "machine_suggested fields are AUTO-GENERATED. human_verified fields must be filled by human annotators."
+}

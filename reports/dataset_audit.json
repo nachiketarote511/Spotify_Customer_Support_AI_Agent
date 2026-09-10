@@ -1,0 +1,255 @@
+{
+  "rows": 2811774,
+  "columns": 7,
+  "column_names": [
+    "tweet_id",
+    "author_id",
+    "inbound",
+    "created_at",
+    "text",
+    "response_tweet_id",
+    "in_response_to_tweet_id"
+  ],
+  "file_size_mb": 492.58,
+  "memory_mb": 1076.56,
+  "dtypes": {
+    "tweet_id": "int64",
+    "author_id": "object",
+    "inbound": "bool",
+    "created_at": "object",
+    "text": "object",
+    "response_tweet_id": "object",
+    "in_response_to_tweet_id": "float64"
+  },
+  "missing_values": {
+    "tweet_id": 0,
+    "author_id": 0,
+    "inbound": 0,
+    "created_at": 0,
+    "text": 0,
+    "response_tweet_id": 1040629,
+    "in_response_to_tweet_id": 794335
+  },
+  "missing_pct": {
+    "tweet_id": 0.0,
+    "author_id": 0.0,
+    "inbound": 0.0,
+    "created_at": 0.0,
+    "text": 0.0,
+    "response_tweet_id": 37.01,
+    "in_response_to_tweet_id": 28.25
+  },
+  "duplicate_rows": 0,
+  "duplicate_tweet_ids": 0,
+  "inbound_true": 1537843,
+  "inbound_false": 1273931,
+  "inbound_pct": 54.69,
+  "outbound_pct": 45.31,
+  "unique_authors": 702777,
+  "date_min": "2008-05-08 20:13:59+00:00",
+  "date_max": "2017-12-03 23:14:01+00:00",
+  "date_span_days": 3496,
+  "invalid_dates": 0,
+  "text_min_chars": 1,
+  "text_max_chars": 513,
+  "text_mean_chars": 113.9,
+  "text_median_chars": 115.0,
+  "text_min_words": 1,
+  "text_max_words": 137,
+  "text_mean_words": 19.5,
+  "text_median_words": 19.0,
+  "empty_texts": 0,
+  "tweets_with_responses": 1771145,
+  "tweets_with_parent": 2017439,
+  "tweets_with_responses_pct": 62.99,
+  "tweets_with_parent_pct": 71.75,
+  "total_response_links": 2186077,
+  "valid_response_links": 2013577,
+  "broken_response_links": 172500,
+  "total_parent_links": 2017439,
+  "valid_parent_links": 2013577,
+  "broken_parent_links": 3862,
+  "total_brands": 108,
+  "top_brands": [
+    {
+      "brand": "amazonhelp",
+      "outbound_tweets": 169840,
+      "inbound_tweets": 123694,
+      "total": 293534
+    },
+    {
+      "brand": "applesupport",
+      "outbound_tweets": 106860,
+      "inbound_tweets": 71780,
+      "total": 178640
+    },
+    {
+      "brand": "uber_support",
+      "outbound_tweets": 56270,
+      "inbound_tweets": 39612,
+      "total": 95882
+    },
+    {
+      "brand": "delta",
+      "outbound_tweets": 42253,
+      "inbound_tweets": 30014,
+      "total": 72267
+    },
+    {
+      "brand": "spotifycares",
+      "outbound_tweets": 43265,
+      "inbound_tweets": 27339,
+      "total": 70604
+    },
+    {
+      "brand": "americanair",
+      "outbound_tweets": 36764,
+      "inbound_tweets": 33021,
+      "total": 69785
+    },
+    {
+      "brand": "tesco",
+      "outbound_tweets": 38573,
+      "inbound_tweets": 24838,
+      "total": 63411
+    },
+    {
+      "brand": "virgintrains",
+      "outbound_tweets": 27817,
+      "inbound_tweets": 29004,
+      "total": 56821
+    },
+    {
+      "brand": "british_airways",
+      "outbound_tweets": 29361,
+      "inbound_tweets": 23702,
+      "total": 53063
+    },
+    {
+      "brand": "tmobilehelp",
+      "outbound_tweets": 34317,
+      "inbound_tweets": 17728,
+      "total": 52045
+    },
+    {
+      "brand": "comcastcares",
+      "outbound_tweets": 33031,
+      "inbound_tweets": 18705,
+      "total": 51736
+    },
+    {
+      "brand": "southwestair",
+      "outbound_tweets": 28977,
+      "inbound_tweets": 21621,
+      "total": 50598
+    },
+    {
+      "brand": "xboxsupport",
+      "outbound_tweets": 24557,
+      "inbound_tweets": 22810,
+      "total": 47367
+    },
+    {
+      "brand": "ask_spectrum",
+      "outbound_tweets": 25860,
+      "inbound_tweets": 18508,
+      "total": 44368
+    },
+    {
+      "brand": "gwrhelp",
+      "outbound_tweets": 19364,
+      "inbound_tweets": 21986,
+      "total": 41350
+    },
+    {
+      "brand": "askplaystation",
+      "outbound_tweets": 19098,
+      "inbound_tweets": 20691,
+      "total": 39789
+    },
+    {
+      "brand": "hulu_support",
+      "outbound_tweets": 21872,
+      "inbound_tweets": 16491,
+      "total": 38363
+    },
+    {
+      "brand": "atviassist",
+      "outbound_tweets": 17650,
+      "inbound_tweets": 18901,
+      "total": 36551
+    },
+    {
+      "brand": "sainsburys",
+      "outbound_tweets": 19466,
+      "inbound_tweets": 16251,
+      "total": 35717
+    },
+    {
+      "brand": "verizonsupport",
+      "outbound_tweets": 17966,
+      "inbound_tweets": 16235,
+      "total": 34201
+    },
+    {
+      "brand": "sprintcare",
+      "outbound_tweets": 22381,
+      "inbound_tweets": 11312,
+      "total": 33693
+    },
+    {
+      "brand": "chipotletweets",
+      "outbound_tweets": 18749,
+      "inbound_tweets": 13150,
+      "total": 31899
+    },
+    {
+      "brand": "safaricom_care",
+      "outbound_tweets": 16077,
+      "inbound_tweets": 15310,
+      "total": 31387
+    },
+    {
+      "brand": "o2",
+      "outbound_tweets": 16212,
+      "inbound_tweets": 14580,
+      "total": 30792
+    },
+    {
+      "brand": "idea_cares",
+      "outbound_tweets": 15724,
+      "inbound_tweets": 13581,
+      "total": 29305
+    },
+    {
+      "brand": "upshelp",
+      "outbound_tweets": 17817,
+      "inbound_tweets": 10710,
+      "total": 28527
+    },
+    {
+      "brand": "sw_help",
+      "outbound_tweets": 12231,
+      "inbound_tweets": 13291,
+      "total": 25522
+    },
+    {
+      "brand": "airasiasupport",
+      "outbound_tweets": 12829,
+      "inbound_tweets": 11794,
+      "total": 24623
+    },
+    {
+      "brand": "argoshelpers",
+      "outbound_tweets": 12174,
+      "inbound_tweets": 10136,
+      "total": 22310
+    },
+    {
+      "brand": "microsofthelps",
+      "outbound_tweets": 11304,
+      "inbound_tweets": 9499,
+      "total": 20803
+    }
+  ]
+}

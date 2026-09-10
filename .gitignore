@@ -1,0 +1,45 @@
+# Environment — never commit secrets
+.env
+.env.*
+.env.example
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Data (keep samples, exclude large files)
+dataset/twcs/*.csv
+data/processed/*.csv
+data/raw/*.csv
+!data/samples/
+!data/golden/
+
+# Models (regenerable)
+models/intent_classifier/*/
+models/embedding_index/*.npy
+models/embedding_index/*.bin
+models/embedding_index/*.pkl
+
+# Cache
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log

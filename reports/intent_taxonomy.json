@@ -1,0 +1,383 @@
+{
+  "n_intents": 10,
+  "intents": [
+    {
+      "id": 4,
+      "name": "playback_issues",
+      "top_terms": [
+        "thanks",
+        "spotify",
+        "just",
+        "app",
+        "songs",
+        "music",
+        "ve",
+        "premium",
+        "like",
+        "help"
+      ],
+      "top_term_scores": [
+        0.02735742296153014,
+        0.023180977836091562,
+        0.017836940122295142,
+        0.016643443539701937,
+        0.014151563980123207,
+        0.012512589161071083,
+        0.012069712700545337,
+        0.011799139436467791,
+        0.011719511118411116,
+        0.01162672729201537
+      ],
+      "count": 13835,
+      "percentage": 64.93,
+      "examples": [
+        "doesn t work and i even tried deleting the app",
+        "premium amp when i have it on shuffle it turns off when the song is done and just plays in order and the repeat lights up but doesn t repeat",
+        "iphone 7 and i have the most recent update for spotify",
+        "yes, multiple times. no changes. i am premium user an when send us users to spotify there should be a bugfree running app",
+        "2 2... and there is no way to manage albums recently added e.g. in the app. it s a mess"
+      ]
+    },
+    {
+      "id": 0,
+      "name": "billing_payment",
+      "top_terms": [
+        "account",
+        "help",
+        "email",
+        "premium",
+        "need",
+        "premium account",
+        "spotify",
+        "need help",
+        "student",
+        "spotify account"
+      ],
+      "top_term_scores": [
+        0.14534810721204175,
+        0.07255938737239247,
+        0.05687075949722101,
+        0.04406055296054628,
+        0.03505209674256192,
+        0.03152188643287312,
+        0.031152374147865914,
+        0.028044235518126955,
+        0.026615219668593135,
+        0.023201774613564964
+      ],
+      "count": 2389,
+      "percentage": 11.21,
+      "examples": [
+        "btw i have a confirmation email to say my email address was updated, then got an email to say my subscription had been cancelled?",
+        "i login with facebook email but i think my email account for spotify is my old one email that is now defunct. what can i do?",
+        "can t access my account. annoyed that i have to tweet to get tech support for a service i pay for",
+        "help on my spotify card please",
+        ". set up family premium. put wrong address. canceled. now can t set up new account w my email address. u make me pay? help!"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "billing_payment",
+      "top_terms": [
+        "family",
+        "plan",
+        "family plan",
+        "premium",
+        "account",
+        "premium family",
+        "family account",
+        "invite",
+        "family premium",
+        "help"
+      ],
+      "top_term_scores": [
+        0.21393771232539516,
+        0.07848349735550601,
+        0.07129539434289074,
+        0.06923249986921202,
+        0.058607969664404604,
+        0.0560295161637021,
+        0.05567683209317659,
+        0.037427234412314846,
+        0.0353796992596463,
+        0.03250730452964412
+      ],
+      "count": 912,
+      "percentage": 4.28,
+      "examples": [
+        "my family premium account has stopped working, even though we have payed this month, it was working last week",
+        "my friends invited me on spotify family through email. but every time i fill the address its always said somethings went wrong",
+        "hi! when will you fix 4 oops something went wrong, please try again. problem in managing family accounts?",
+        "when trying to join a family 4 oops something went wrong, please try again.",
+        "what s up with removing the browse discover? it is the major reason i pay a premium family subscription!"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "information_request",
+      "top_terms": [
+        "thank",
+        "worked thank",
+        "okay thank",
+        "okay",
+        "worked",
+        "ll",
+        "thank help",
+        "ok thank",
+        "good",
+        "guys"
+      ],
+      "top_term_scores": [
+        0.3804884276147627,
+        0.02592349482002339,
+        0.025186964374268577,
+        0.023950004147051777,
+        0.021625861084594307,
+        0.01781893558132429,
+        0.017073585178620256,
+        0.014338526648869337,
+        0.014189435538919281,
+        0.013598811152074675
+      ],
+      "count": 807,
+      "percentage": 3.79,
+      "examples": [
+        "i doubt it but thank you for replying!",
+        "and this is why i ll love spotify forever and why you are my favorite music platform. thank you!",
+        "they re back now. i was on my phone s 4g earlier. i don t know what happened but when i connected to my wifi it returned. thank you though.",
+        "fasho thank you for the help",
+        "checked the three dots and saw the download option and then my song appeared. it works.. but it feels hidden. thank you for your interest"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "playback_issues",
+      "top_terms": [
+        "play",
+        "songs",
+        "song",
+        "won",
+        "music",
+        "won play",
+        "just",
+        "spotify",
+        "play music",
+        "shuffle"
+      ],
+      "top_term_scores": [
+        0.21524162063379337,
+        0.04726385192859062,
+        0.04661026082768873,
+        0.033520598393449855,
+        0.031960307835804225,
+        0.028197463311198167,
+        0.027308400797158523,
+        0.0257697132710002,
+        0.025287976009203003,
+        0.024523710687930224
+      ],
+      "count": 741,
+      "percentage": 3.48,
+      "examples": [
+        "i dunno what system you use that decides which part of the song it gonna play i love spotify, but maybe a custom clip option?",
+        "thanks 4 the speedy response but i think i discovered what s going on, does the desktop app have a way to play music from personal folders?",
+        "i have now tried a different computer on a different network with a different browser edge amp still can t push play.",
+        "my web player is stuck in a commercial. play isn t an option. tried clearing cookies, etc. nothing helped. ijustwantmusic",
+        "and is that causing the other issue where nothing will play on sonos thru spotify app?"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "app_technical",
+      "top_terms": [
+        "version",
+        "10",
+        "windows",
+        "spotify",
+        "windows 10",
+        "latest",
+        "spotify version",
+        "latest version",
+        "iphone",
+        "using"
+      ],
+      "top_term_scores": [
+        0.15492481719607604,
+        0.09194085891014868,
+        0.07401408916300056,
+        0.07192493526582604,
+        0.05992570815367047,
+        0.04712658356061374,
+        0.0456004460368965,
+        0.03854584463765805,
+        0.03702587711667259,
+        0.03373143727317397
+      ],
+      "count": 628,
+      "percentage": 2.95,
+      "examples": [
+        "using a macbook pro with os x el capitan and the latest spotify update, and an iphone 6s with the latest software spotify updates!",
+        "thanks, spot ver 1.0.66.478.g1296534d it s on a macbook pro yosemite ver 10.10.5.",
+        "latest version, it only freezes when i play from the side menu on my ps4",
+        "i m using the newest version of ios and the 8.4.25 version of spotify",
+        "so can i not go back to the normal spotify cause i m not really to fond of this version?"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "account_access",
+      "top_terms": [
+        "log",
+        "facebook",
+        "account",
+        "password",
+        "email",
+        "spotify",
+        "reset",
+        "says",
+        "help",
+        "login"
+      ],
+      "top_term_scores": [
+        0.15903543415796995,
+        0.12158184540385653,
+        0.062462428441248816,
+        0.05000260467491496,
+        0.04030636282599099,
+        0.04018428574984106,
+        0.032094490483839534,
+        0.030656902703386772,
+        0.030035179703854404,
+        0.029934724059066237
+      ],
+      "count": 586,
+      "percentage": 2.75,
+      "examples": [
+        "i m using my facebook account as a method to log in.",
+        "i deactivated my facebook a few years ago and now i can t log into spotify? i don t want to make a new email. any tips? thanks",
+        "already tried with an other computer and for the password dont need it im loggin with my facebook account !",
+        "since 5 days can nolonger longer log on my spotify webplayer ...a reload red messages pop up im on premium account?",
+        "spotify think i get wrong password, so i try to reset my password with myusername linalthf, but i forgot what e mail i used. can u help me?"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "app_technical",
+      "top_terms": [
+        "android",
+        "version",
+        "samsung",
+        "spotify",
+        "galaxy",
+        "armv7",
+        "android spotify",
+        "app",
+        "samsung galaxy",
+        "android version"
+      ],
+      "top_term_scores": [
+        0.21745889680045677,
+        0.06860918993021707,
+        0.051647443785718776,
+        0.05145554659339448,
+        0.04685645151573668,
+        0.04644402783555094,
+        0.04185001792421213,
+        0.04022619787986866,
+        0.03464310399137555,
+        0.033142314713583754
+      ],
+      "count": 528,
+      "percentage": 2.48,
+      "examples": [
+        "spotify 8.4.24.871 android version 7.0 device a brand new huawei mate 9 . i will look like an ass if it s a matter of just updates",
+        "android 6.0.1 and spotify version 8.4.25.771 armv7",
+        "android v7.0, samsung s7 edge, spotify v8.4.25.771armv7. bluetooth controls work fine on all other media apps, play pause dont work on sptfy",
+        "galaxy s7 edge android 7.0 spotify 8.4.25.771",
+        "android spotify suddenly demanding a login. long time premium user. renewed 10 days ago. what gives?"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "app_technical",
+      "top_terms": [
+        "ios",
+        "11",
+        "ios 11",
+        "iphone",
+        "11 spotify",
+        "iphone ios",
+        "spotify",
+        "version",
+        "6s",
+        "spotify version"
+      ],
+      "top_term_scores": [
+        0.21394259368962978,
+        0.21076145273900293,
+        0.19854590546661513,
+        0.1453460708789578,
+        0.07453814592259157,
+        0.07418331243814932,
+        0.06555804901227556,
+        0.06441269030546987,
+        0.04487879123627414,
+        0.044234113423496584
+      ],
+      "count": 445,
+      "percentage": 2.09,
+      "examples": [
+        "spotify 8.4.25.906 and ios 11",
+        "no just on my phone since i installed ios 11. mostly on 3g 4g. it s very random when it decides not to work.",
+        "no problems with ios.",
+        "ios 11.0.3 and the spotify version is 8.4.25",
+        "i have logged in to multiple devices as well. all iphones with ios 11 updates. same problem"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "playlist_library",
+      "top_terms": [
+        "did",
+        "did work",
+        "just",
+        "just did",
+        "work",
+        "thanks",
+        "spotify",
+        "yes did",
+        "did remove",
+        "yes"
+      ],
+      "top_term_scores": [
+        0.30819236250262466,
+        0.026372255954618274,
+        0.02586329439335017,
+        0.024897336593143315,
+        0.02166792961576719,
+        0.02025236869693127,
+        0.01856922369150541,
+        0.01445056623998021,
+        0.013618163125209158,
+        0.013344381134387198
+      ],
+      "count": 437,
+      "percentage": 2.05,
+      "examples": [
+        "over all connection, i get this notification from the phone as for loving in and out i did a fresh install, no luck!",
+        "okay! i did it! thanks",
+        "yes i did. the dude even said thanks for watching now enjoy your 30 mins of ad free music.",
+        "that i did ages ago.",
+        "reinstalling the app did fix some issues but i still have problems with artist info in locked mode and control center"
+      ]
+    }
+  ],
+  "label_distribution": {
+    "billing_payment": 912,
+    "playback_issues": 13835,
+    "account_access": 586,
+    "app_technical": 445,
+    "playlist_library": 437,
+    "information_request": 807
+  }
+}

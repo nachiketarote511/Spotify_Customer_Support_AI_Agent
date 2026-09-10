@@ -1,0 +1,85 @@
+# Hiver AI Customer Support Agent Configuration
+
+# Brand Selection
+brand: "spotifycares"
+brand_display_name: "SpotifyCares (Spotify)"
+
+# Dataset
+dataset:
+  raw_path: "dataset/twcs/twcs.csv"
+  sample_path: "data/samples/spotify_sample.csv"
+  processed_path: "data/processed/spotify_conversations.csv"
+  golden_path: "data/golden/golden_eval_set.csv"
+
+# Pipeline Selection
+pipeline:
+  # Threshold in MB - datasets larger than this are classified as LARGE
+  size_threshold_mb: 500
+  # Threshold in rows
+  size_threshold_rows: 1000000
+  # Default pipeline: "pandas" or "spark"
+  default: "pandas"
+
+# Intent Classification
+intent:
+  # Number of intents to discover
+  min_intents: 6
+  max_intents: 12
+  # Classifier settings
+  classifier:
+    baseline: "tfidf_logreg"  # TF-IDF + Logistic Regression
+    improved: "sentence_transformer"  # Sentence Transformer + classifier
+    embedding_model: "all-MiniLM-L6-v2"
+    test_size: 0.2
+    random_state: 42
+
+# Retrieval
+retrieval:
+  embedding_model: "all-MiniLM-L6-v2"
+  index_type: "faiss_flat"  # faiss_flat or faiss_ivf
+  top_k: 5
+  similarity_threshold: 0.3
+
+# Gemini API
+gemini:
+  model: "gemini-3.6-flash"
+  temperature: 0.3
+  max_output_tokens: 1024
+  # API key must come from GEMINI_API_KEY environment variable
+
+# Escalation
+escalation:
+  intent_confidence_threshold: 0.4
+  retrieval_similarity_threshold: 0.3
+  min_retrieval_results: 2
+  sensitive_keywords:
+    - "legal"
+    - "lawsuit"
+    - "lawyer"
+    - "fraud"
+    - "unauthorized"
+    - "hack"
+    - "stolen"
+    - "death"
+    - "threat"
+
+# Evaluation
+evaluation:
+  golden_set_size: 200
+  llm_judge_sample_size: 50
+  human_agreement_sample_size: 30
+
+# API
+api:
+  host: "0.0.0.0"
+  port: 8000
+  cors_origins:
+    - "http://localhost:3000"
+    - "http://localhost:8080"
+    - "http://127.0.0.1:5500"
+
+# Caching
+cache:
+  enabled: true
+  directory: ".cache"
+  gemini_cache_ttl: 3600  # 1 hour
