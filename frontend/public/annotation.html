@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiver Fast Human Annotation</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f9f9f9; margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { margin-top: 0; color: #1a1a1a; border-bottom: 1px solid #eaeaea; padding-bottom: 10px; }
+        .stats { display: flex; justify-content: space-between; margin-bottom: 20px; font-weight: bold; color: #555; }
+        .filters { margin-bottom: 20px; padding: 15px; background: #f0f4f8; border-radius: 6px; }
+        .card { background: #fdfdfd; border: 1px solid #e0e0e0; border-radius: 6px; padding: 20px; margin-bottom: 20px; }
+        .card-header { font-size: 0.9em; text-transform: uppercase; color: #777; letter-spacing: 0.5px; margin-bottom: 10px; }
+        .content-box { background: #fff; border: 1px solid #d1d5db; padding: 15px; border-radius: 4px; margin-bottom: 15px; font-family: monospace; white-space: pre-wrap; word-break: break-word; }
+        
+        .machine-suggestion { background: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 6px; margin-bottom: 20px; }
+        .machine-suggestion h3 { color: #856404; margin-top: 0; font-size: 1.1em; }
+        
+        .human-input { background: #e8f4fd; border: 1px solid #b8daff; padding: 20px; border-radius: 6px; margin-bottom: 20px; }
+        .human-input h3 { color: #004085; margin-top: 0; }
+        
+        .form-group { margin-bottom: 15px; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; color: #333; }
+        select, textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-family: inherit; }
+        textarea { height: 80px; resize: vertical; }
+        
+        .controls { display: flex; justify-content: space-between; margin-top: 30px; }
+        button { padding: 10px 20px; border: none; border-radius: 4px; font-size: 1em; cursor: pointer; font-weight: bold; transition: background 0.2s; }
+        .btn-prev { background: #6c757d; color: white; }
+        .btn-prev:hover { background: #5a6268; }
+        .btn-skip { background: #ffc107; color: #212529; }
+        .btn-skip:hover { background: #e0a800; }
+        .btn-save { background: #28a745; color: white; }
+        .btn-save:hover { background: #218838; }
+        .btn-next { background: #007bff; color: white; }
+        .btn-next:hover { background: #0069d9; }
+        
+        .warning { color: red; font-size: 0.9em; margin-bottom: 10px; font-weight: bold; }
+        .status-badge { display: inline-block; padding: 3px 8px; border-radius: 12px; font-size: 0.8em; font-weight: bold; margin-left: 10px; }
+        .status-unreviewed { background: #ffeeba; color: #856404; }
+        .status-reviewed { background: #d4edda; color: #155724; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Golden Dataset Annotation <span id="statusBadge" class="status-badge status-unreviewed">UNREVIEWED</span></h1>
+        
+        <div class="stats">
+            <span id="progressCounter">Progress: 0 / 200</span>
+            <span id="reviewedCounter">Reviewed: 0 (0%)</span>
+        </div>
+        
+        <div class="filters">
+            <label><input type="checkbox" id="unreviewedOnly" onchange="applyFilters()"> Show only unreviewed examples</label>
+        </div>
+
+        <div id="loading" style="text-align: center; padding: 50px; font-size: 1.2em;">Loading dataset...</div>
+
+        <div id="annotationArea" style="display: none;">
+            <div class="card">
+                <div class="card-header">Conversation Context</div>
+                <div class="content-box" id="conversationContext"></div>
+                
+                <div class="card-header">Customer Message</div>
+                <div class="content-box" id="customerMessage" style="border-color: #007bff; border-width: 2px;"></div>
+            </div>
+
+            <div class="machine-suggestion">
+                <h3>🤖 Machine Suggestion (AI-assisted draft — human review pending)</h3>
+                <p class="warning">⚠️ These suggestions must NEVER be treated as ground truth.</p>
+                <div><strong>Intent:</strong> <span id="machineIntent"></span></div>
+                <div><strong>Escalate:</strong> <span id="machineEscalate"></span></div>
+                <div><strong>Reasoning:</strong> <span id="machineReason"></span></div>
+            </div>
+
+            <div class="human-input">
+                <h3>🧑‍💻 Human Verification</h3>
+                <div class="form-group">
+                    <label for="humanIntent">True Intent</label>
+                    <select id="humanIntent">
+                        <option value="">-- Select Intent --</option>
+                        <option value="playback_issues">playback_issues</option>
+                        <option value="billing_payment">billing_payment</option>
+                        <option value="account_access">account_access</option>
+                        <option value="app_technical">app_technical</option>
+                        <option value="information_request">information_request</option>
+                        <option value="playlist_library">playlist_library</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="humanEscalate">Action</label>
+                    <select id="humanEscalate">
+                        <option value="">-- Select Action --</option>
+                        <option value="false">Auto-Handle (AI Reply)</option>
+                        <option value="true">Escalate to Human Agent</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="humanReason">Reasoning (Why Auto/Escalate?)</label>
+                    <textarea id="humanReason" placeholder="Explain why this should be auto-handled or escalated..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reviewerNotes">Additional Notes (Optional)</label>
+                    <textarea id="reviewerNotes" placeholder="Any interesting edge cases or ambiguity?"></textarea>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn-prev" onclick="prevExample()">◀ Previous</button>
+                <div>
+                    <button class="btn-skip" onclick="nextExample()">Skip ⏭</button>
+                    <button class="btn-save" onclick="saveAnnotation()">💾 Save & Next</button>
+                </div>
+                <button class="btn-next" onclick="nextExample()">Next ▶</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let dataset = [];
+        let filteredIndices = [];
+        let currentIndex = 0;
+
+        async function loadData() {
+            try {
+                const response = await fetch('/api/annotations');
+                const result = await response.json();
+                dataset = result.data || [];
+                updateFilters();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').innerText = 'Error loading dataset. Is the backend running?';
+            }
+        }
+
+        function updateFilters() {
+            const unreviewedOnly = document.getElementById('unreviewedOnly').checked;
+            filteredIndices = [];
+            for (let i = 0; i < dataset.length; i++) {
+                if (!unreviewedOnly || !dataset[i].human_reviewed) {
+                    filteredIndices.push(i);
+                }
+            }
+            if (filteredIndices.length === 0) {
+                document.getElementById('annotationArea').style.display = 'none';
+                document.getElementById('loading').innerText = 'No examples match the current filter.';
+                document.getElementById('loading').style.display = 'block';
+            } else {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('annotationArea').style.display = 'block';
+                currentIndex = 0;
+                renderExample();
+            }
+            updateStats();
+        }
+
+        function applyFilters() {
+            updateFilters();
+        }
+
+        function updateStats() {
+            const reviewedCount = dataset.filter(d => d.human_reviewed).length;
+            const percent = Math.round((reviewedCount / dataset.length) * 100) || 0;
+            document.getElementById('reviewedCounter').innerText = `Reviewed: ${reviewedCount} (${percent}%)`;
+        }
+
+        function renderExample() {
+            if (filteredIndices.length === 0) return;
+            const idx = filteredIndices[currentIndex];
+            const data = dataset[idx];
+
+            document.getElementById('progressCounter').innerText = `Progress: ${currentIndex + 1} / ${filteredIndices.length}`;
+            
+            const badge = document.getElementById('statusBadge');
+            if (data.human_reviewed) {
+                badge.className = 'status-badge status-reviewed';
+                badge.innerText = 'REVIEWED';
+            } else {
+                badge.className = 'status-badge status-unreviewed';
+                badge.innerText = 'UNREVIEWED';
+            }
+
+            document.getElementById('conversationContext').innerText = data.conversation_context || 'None';
+            document.getElementById('customerMessage').innerText = data.customer_message || '';
+            
+            document.getElementById('machineIntent').innerText = data.machine_suggested_intent || 'N/A';
+            document.getElementById('machineEscalate').innerText = data.machine_suggested_escalation ? 'Yes' : 'No';
+            document.getElementById('machineReason').innerText = data.machine_reason || 'N/A';
+
+            document.getElementById('humanIntent').value = data.human_intent || '';
+            document.getElementById('humanEscalate').value = data.human_escalation === true ? 'true' : (data.human_escalation === false ? 'false' : '');
+            document.getElementById('humanReason').value = data.human_reason || '';
+            document.getElementById('reviewerNotes').value = data.reviewer_notes || '';
+        }
+
+        function prevExample() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                renderExample();
+            }
+        }
+
+        function nextExample() {
+            if (currentIndex < filteredIndices.length - 1) {
+                currentIndex++;
+                renderExample();
+            }
+        }
+
+        async function saveAnnotation() {
+            if (filteredIndices.length === 0) return;
+            const idx = filteredIndices[currentIndex];
+            const data = dataset[idx];
+
+            const intent = document.getElementById('humanIntent').value;
+            const escalate = document.getElementById('humanEscalate').value;
+            const reason = document.getElementById('humanReason').value;
+            const notes = document.getElementById('reviewerNotes').value;
+
+            if (!intent || !escalate) {
+                alert('Please select both Intent and Action.');
+                return;
+            }
+
+            const payload = {
+                conversation_id: data.conversation_id,
+                human_intent: intent,
+                human_escalation: escalate === 'true',
+                human_reason: reason,
+                reviewer_notes: notes
+            };
+
+            try {
+                const response = await fetch('/api/annotations', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                if (response.ok) {
+                    dataset[idx].human_intent = payload.human_intent;
+                    dataset[idx].human_escalation = payload.human_escalation;
+                    dataset[idx].human_reason = payload.human_reason;
+                    dataset[idx].reviewer_notes = payload.reviewer_notes;
+                    dataset[idx].human_reviewed = true;
+                    
+                    updateStats();
+                    nextExample();
+                } else {
+                    alert('Error saving annotation');
+                }
+            } catch (error) {
+                console.error('Save error:', error);
+                alert('Failed to save. Is the backend running?');
+            }
+        }
+
+        // Initialize
+        loadData();
+    </script>
+</body>
+</html>

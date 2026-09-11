@@ -42,8 +42,8 @@ retrieval:
 
 # Gemini API
 gemini:
-  model: "gemini-3.6-flash"
-  temperature: 0.3
+  model: "gemini-2.0-flash"
+  temperature: 0.1
   max_output_tokens: 1024
   # API key must come from GEMINI_API_KEY environment variable
 

@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./configs:/app/configs:ro
+      - ./data:/app/data
+      - ./models:/app/models:ro
+      - ./dataset:/app/dataset:ro
+      - ./reports:/app/reports
+      - ./frontend/public:/app/frontend/public:ro
+    restart: unless-stopped
